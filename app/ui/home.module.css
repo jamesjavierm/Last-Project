@@ -1,0 +1,61 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+
+
+/* home.module.css */
+
+.mainContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  
+  .blueBox {
+    display: flex;
+    height: 5rem;
+    flex-shrink: 0;
+    align-items: flex-end;
+    border-radius: 0.5rem;
+    background-color: #3b82f6; /* Tailwind's `bg-blue-500` */
+    padding: 1rem;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: #f9fafb; /* Tailwind's `bg-gray-50` */
+    padding: 2.5rem;
+  }
+  
+  .welcomeText {
+    font-size: 1.25rem; /* Tailwind's `text-xl` */
+    color: #1f2937; /* Tailwind's `text-gray-800` */
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    align-self: flex-start;
+    border-radius: 0.5rem;
+    background-color: #3b82f6; /* Tailwind's `bg-blue-500` */
+    padding: 0.75rem 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.875rem; /* Tailwind's `text-sm` */
+    transition: background-color 0.2s;
+  }
+  
+  .link:hover {
+    background-color: #60a5fa; /* Tailwind's `hover:bg-blue-400` */
+  }
+  
